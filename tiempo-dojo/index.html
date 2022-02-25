@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1,
+            maximum-scale=1"
+            />
+        <title>Perfil Usuario</title>
+        <meta charset="utf-8" />
+        <meta
+            name="perfil de usuario"
+            content="perfiles de usuario agregar o
+            eliminar peticiones de amistad"
+            />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro:wght@600&display=swap"
+            rel="stylesheet"
+            />
+    </head>
+    <header>
+
+        <div class="head">
+            <nav class="nav">
+                <h1>Dojo weather</h1>
+                <ul class="links">
+                    <li onclick="alerta(this)"><a href="#">Burbank</a></li>
+                    <li onclick="alerta(this)"><a href="#">Chicago</a></li>
+                    <li onclick="alerta(this)"><a href="#">Dallas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <div class="contenedor">
+            <div class="sanjose">
+                <h1>San Jose</h1>
+                <form>
+                    <label>show temperature in</label>
+                    <select name="escalaTemperatua" onchange="cambio(this)">
+                        <option >c</option>
+                        <option >f</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="row">
+                <div class="dia">
+                    <h2>hoy</h2>
+                    <img src="img/some_rain.png" alt="nubes">
+                    <p>Algunas Gotas</p>
+                    <p class="temperatura">
+                        <span class="maxima" id="temperatura1">24</span>
+                        <span class="minima" id="temperatura2">18</span>
+                    </p>
+                </div>
+                <div class="dia">
+                    <h2>Mañana</h2>
+                    <img src="img/some_sun.png" alt="nubes">
+                    <p>Soleado</p>
+                    <p class="temperatura">
+                        <span class="maxima" id="temperatura3">24</span>
+                        <span class="minima" id="temperatura4">18</span>
+                    </p>
+                </div>
+                <div class="dia">
+                    <h2>Viernes</h2>
+                    <img src="img/some_clouds.png" alt="nubes">
+                    <p>Parcialmente Nublado</p>
+                    <p class="temperatura">
+                        <span class="maxima" id="temperatura5">24</span>
+                        <span class="minima" id="temperatura6">18</span>
+                    </p></div>
+                    <div class="dia">
+                        <h2>Sabado</h2>
+                        <img src="img/some_sun.png" alt="nubes">
+                        <p>Soleado</p>
+                        <p class="temperatura">
+                            <span class="maxima" id="temperatura7">24</span>
+                        <span class="minima" id="temperatura8">18</span>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer class="cookies">
+        <img src="img/cookie.png" alt="cookie">
+        <div class="text">
+            <h3>Stop! cookie time</h3>
+            <p>We use cookies (sadly not the edible ones)to personalize<br>
+             content and ads, to provide social media features and to<br> 
+             analuse our traffic. <a href="#">Read more...</a></p>
+            
+            </div>
+            <button  onclick="ocultar(this)">acceptar</button>
+        </footer>
+        <script src="script.js"></script>
+    </html>
