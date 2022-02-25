@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            maximum-scale=1" />
+        <title>Perfil Usuario</title>
+        <meta charset="utf-8" />
+        <meta name="perfil de usuario" content="perfiles de usuario agregar o
+            eliminar peticiones de amistad" />
+        <link rel="stylesheet" type="text/css" href="stylee.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="nav">
+            <h1 class="nav-title">Perfil</h1>
+            <ul class="nav-links">
+                <li><a href="#" class="nlink"> Inicio </a></li>
+                <li><a href="#" class="nlink"> My Profile </a></li>
+                <li><a href="#" class="nlink"> Encontrar conexiones </a></li>
+                <li><button class="btn"> Cerrar sesión </button></li>
+            </ul>
+        </div>
+        <div id="contenedor">
+            <div class="row-1">
+                <div class="col">
+                    <div class="header">
+                        <img src="img/Damian.jpg" alt="imagen de usuario"class="imgUsuario">
+                    </div>
+                    <div class="body">
+                        <h2 class="damian">Damian Cardenas</h2>
+                        <h3><p class="chile">
+                            <img src="img/map-marker.png" alt="map-marker" class="map-marker">
+                            Chile
+                        </p></h3>
+                        <h4><p class="texto"> Developer | Enginner | Problem solver<br>
+                            Master of Shadows and The Internet!</p></h4>
+
+                           <h4>
+                        <p class="link" onclick="edit()"> <img src="img/gear.png"  alt="gear" class="gear"> 
+                            <a href="#" class="linkgear">Editar perfil</a></p></h4>
+                        
+                    </div>
+                    <div class="col-3">
+                        <div class="head-3">
+                            <h4><p class="edu">Education</p></h4>
+                        </div>
+                        <div class="body-3">
+                            <h2><p class="p-body">Coding dojo - Full Stack Bootcamp</p></h2>
+                                <p class="p-body2">Dec 2019 - Mar 2020</p>
+                                <p class="p-body3">Triple back belt in Python, MERN, and C#</p>
+                        </div>
+                        
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="head-c">
+                            <h4><p class="con">
+                                <button class="bton" id="button" >2</button>
+                                Conecction Requests</p></h4>
+                        </div>
+                        <div class="body-c">
+                            
+                            
+                            <div class="li-names">
+                                <div class="li-1">
+                                
+                                    <img src="img/todd-s.jpg" alt="imagen de usuario"class="logo1">Todd E
+                                    <img src="img/accept-circle.png"  alt="aceptar" class="aceptar" onclick="ocultarLI(this)">
+                                    <img src="img/close-circle.png"  alt="rechazar" class="cerrar" onclick="ocultarLI(this)">
+                                </div>
+                                <div class="li-2">
+                                    <img src="img/phil-s.jpg" alt="imagen de usuario"class="logo2">Phill K
+                                    <img src="img/accept-circle.png"  alt="aceptar" class="aceptar" onclick="ocultar2do(this)">
+                                    <img src="img/close-circle.png"  alt="rechazar" class="cerrar" onclick="ocultar2do(this)">
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="head-b">
+                        <h4><p class="con-b">
+                            <button class="bton-b" onclick="like(0)"><span id="span">500</span></button>
+                            Your Connections</p></h4>
+                    </div>
+                    <div class="body-b">
+                        <img src="img/adrien-s.jpg"  alt="logo3" class="logo3">
+                            <img src="img/anne-s.jpg"  alt="logo4" class="logo4">
+                            <img src="img/alayne-s.jpg"  alt="logo5" class="logo5">
+                            <img src="img/arry-s.jpg"  alt="logo6" class="logo6">
+                        <ul class="li-names-b">
+                            
+                            <li>Adrien D</li><br>
+                            <li>Anne J</li><br>
+                            <li>Alayne T</li><br>
+                            <li>Arry Y</li><br>
+                        </ul>
+                        <div class="view">
+                            <a href="http://google.com" class="link-view">View More
+                                </a>
+                            </div>
+                
+                </div>
+            </div>
+                </div>
+
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>

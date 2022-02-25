@@ -1,0 +1,417 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+#nav{
+    background-color: black;
+    height: 600%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+
+.nav-title {
+
+    color: aliceblue;
+    margin: 1%;
+    margin-left: 0%;
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content:space-evenly;
+
+}
+.nlink{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.btn{
+    height: 25px;
+    margin-left: 500px;
+}
+
+
+/* end nav */
+
+/* conteiner */
+
+#contenedor{
+    display: block;
+    margin: 0%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+}
+.row-1{
+    display: flex;
+    margin-left: 22%;
+    height: 450px;
+    width: 30px;
+    
+}
+.row-2{
+    display: flex;
+    margin-left: 22%;
+    height: 450px;
+    width: 30px;
+    
+}
+
+.col{
+    flex: 2;
+    padding: 20px;
+    margin: 10px; 
+}
+
+.col-2 {
+    flex: 1;
+    padding: 0px;
+    margin-top: 27px;
+    
+}
+
+
+.col-3{
+    flex: 2;
+    padding: 1px;
+    margin: 0px; 
+    position: relative;
+    top: 10px;
+}
+
+
+/*end conteiner row..*/
+
+
+/*head and body*/
+.header{
+    background-color: rgba(78, 46, 139, 0.644);
+    height:90px;
+    width: 535px;
+    border: 1px solid rgb(88, 81, 81);
+    margin-left: 0px;
+}
+.body{
+    display: block;
+    background-color: aliceblue;
+    height: 250px;
+    width: 535px;
+    border: solid 1px rgba(100, 87, 87, 0.767);
+    margin-left: 0px;
+}
+.head-c{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 1px rgb(0, 0, 0);
+    height:45px;
+    width: 220px;
+    background-color: rgb(31, 31, 31);
+
+    
+}
+.body-c{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 1px rgb(0, 0, 0);
+    height:100px;
+    width: 220px;
+    background-color: aliceblue
+}
+.bton{
+    height: 25px;
+    width: 25px;
+    border-radius: 70%;
+    background-color: darkgray;
+    border-style: none;
+    position: relative;
+    right: 0px;
+}
+.head-b{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 1px rgb(0, 0, 0);
+    height:45px;
+    width: 220px;
+    background-color: rgb(31, 31, 31);
+}
+.body-b{
+    border: solid 1px gray;
+    height:200px;
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+}
+
+.bton-b{
+    height: 20px;
+    width: 50px;
+    border-radius: 70%;
+    background-color: darkgray;
+    border-style: none;
+    position: relative;
+    left: 5px;
+}
+ul{
+    list-style: none;
+}
+.head-3{
+    background-color: bisque;
+    height:50px;
+    width: 535px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    border: 1px solid grey;
+}
+
+.body-3{
+    background-color: azure;
+    height:160px;
+    width: 535px;
+    border: 1px solid  grey;
+}
+/*head and body end*/
+
+/* imagenes*/
+.imgUsuario{
+    position: relative;
+    border: 2px solid lightgray;
+    border-radius: 70%;
+    height: 90px;
+    width: 90px;
+    top: 60px;
+    left: 39px;
+    
+}
+.map-marker{
+    position: relative;
+    height: 19px;
+    width: 19px;
+    top: 3px;
+
+}
+
+.gear{
+    position: relative;
+    height: 19px;
+    width: 19px;
+    top: 120px;
+    left: 39px;
+
+}
+.logo1{
+    
+    border: 2px solid lightgray;
+    border-radius: 70%;
+    height: 28px;
+    width: 28px;
+    
+}
+.logo2{
+    
+    border: 2px solid rgb(11, 197, 26);
+    border-radius: 70%;
+    height: 28px;
+    width: 28px;
+   
+}
+.logo3{
+    position: relative;
+    border: 2px solid rgb(11, 197, 26);
+    border-radius: 70%;
+    height: 28px;
+    width: 28px;
+    top: 25px;
+    left: 20px;
+}
+.logo4{
+    position: relative;
+    border: 2px solid rgb(11, 197, 26);
+    border-radius: 70%;
+    height: 28px;
+    width: 28px;
+    top: 65px;
+    right: 15px;
+}
+.logo5{
+    position: relative;
+    border: 2px solid rgb(11, 197, 26);
+    border-radius: 70%;
+    height: 28px;
+    width: 28px;
+    top: 100px;
+    right:52px ;
+}
+
+.logo6{
+    position: relative;
+    border: 2px solid rgb(11, 197, 26);
+    border-radius: 70%;
+    height: 28px;
+    width: 28px;
+    top: 139px;
+    right: 88px;
+}
+.li-names-b{
+    position: relative;
+    left: 70px;
+}
+.li-1{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+.li-2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.li-names{
+    border: 1px solid black;
+    height: 98px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.aceptar{
+    
+    height: 19px;
+    width: 19px;
+ 
+   
+}
+.aceptar1{
+ 
+    height: 19px;
+    width: 19px;
+   
+   
+   
+}
+
+.cerrar{
+   
+    height: 19px;
+    width: 19px;
+   
+
+}
+.cerrar1{
+
+    height: 19px;
+    width: 19px;
+   
+
+}
+
+.view{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 1px rgb(22, 21, 21);
+    height:45px;
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    right: 1px;
+}
+/* end imagenes*/
+
+/* texto*/
+
+.damian{
+    position:relative;
+    left: 40px;
+    top: 70px;
+}
+
+.chile{
+    position:relative;
+    left: 40px;
+    top: 75px;
+}
+
+.texto{
+    position: relative;
+    left: 40px;
+    top: 90px;
+}
+.edu{
+    position: relative;
+    left: 30px;
+    top: 14px;
+
+}
+.linkgear {
+    position:relative;
+    left: 40px;
+    top: 120px;
+    color: black;
+    text-decoration: none;
+}
+
+.con{
+    display: flex;
+    text-align: center;
+    position:relative;
+    top: 3px;
+}
+.link-view {
+    position: relative;
+    right: 50px;
+    color: rgb(26, 26, 179);
+    text-decoration: none;
+}
+
+.p-body{
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+.p-body2{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    color: gray;
+}
+.p-body3{
+    position: relative;
+    left: 30px;
+    top: 40px;
+    color: gray;
+}
+
+p,li{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
+}
+/* texto end*/
+
+
+
+
+
